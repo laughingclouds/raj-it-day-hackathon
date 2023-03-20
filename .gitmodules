@@ -1,3 +1,6 @@
 [submodule "FaceCheck"]
 	path = FaceCheck
 	url = https://github.com/4RCAN3/FaceCheck.git
+[submodule "flask-server/FaceCheck"]
+	path = flask-server/FaceCheck
+	url = https://github.com/4RCAN3/FaceCheck.git
