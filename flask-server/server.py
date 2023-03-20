@@ -68,7 +68,6 @@ def userpost():
         imgList.append(imgPath)
 
     Register(request.form["id"], imgList)
-    print(vals)
 
     return redirect("/")
 
