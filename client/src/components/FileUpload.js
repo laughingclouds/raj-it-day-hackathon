@@ -1,10 +1,16 @@
+import { ICONS } from "../ICONS";
+
 export default function FileUpload() {
   return (
-    <form action="/api/submit-student-image" method="post" enctype="multipart/form-data">
-      <label htmlFor="studentImage">Upload Image</label>
-      <input type="file" id="studentImage" name="studentImage" />
+    <form className="" action="/api/submit-student-image" method="post" enctype="multipart/form-data">
+      <label className="label">
+        <span className="label-text">Upload Image</span>
+      </label>
 
-      <button>Submit</button>
+      <div className="flex flex-row">
+        <input type="file" id="studentImage" name="studentImage" className="file-input file-input-bordered" />
+        <button>{ICONS["cloud-arrow-up"]}</button>
+      </div>
     </form>
   );
 }
