@@ -1,9 +1,6 @@
-from os import remove as rmFile
 from flask import Flask, request, redirect, render_template
 from FaceCheck.main import Detect, Register
 from FaceCheck.dataEntry import db
-
-# FILE_STORAGE = "C:\Program\awdawd\path"
 
 app = Flask(__name__, static_folder="../client/build/static",
             template_folder="../client/build")
@@ -52,27 +49,6 @@ def userget(id: str):
 
 @app.route("/api/userpost", methods=["POST"])
 def userpost():
-    # db.insertValues(
-    #   request.form["id"],
-    #   request.form["name"],
-    #   request.form["address"],
-    #   request.form["cgpa"],
-    #   request.form["tenth"],
-    #   request.form["twelfth"],
-    #   request.form["remarks"],
-    #   request.form["phone"]
-    # )
-
-    vals = [
-        request.form["id"],
-        request.form["name"],
-        request.form["address"],
-        request.form["cgpa"],
-        request.form["tenth"],
-        request.form["twelfth"],
-        request.form["remarks"],
-        request.form["phone"]
-    ]
     db.insertValues(
         request.form["id"],
         request.form["name"],
