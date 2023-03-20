@@ -1,0 +1,3 @@
+[submodule "FaceCheck"]
+	path = FaceCheck
+	url = https://github.com/4RCAN3/FaceCheck.git
