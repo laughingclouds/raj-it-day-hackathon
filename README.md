@@ -62,14 +62,23 @@ It is not yet close to perfection. There are yet things that can be improved and
 - **Aaryan Tyagi**
   - Github Profile: [4RCAN3](https://github.com/4RCAN3)
   - Linkedin Profile: [Aaryan Tyagi](https://www.linkedin.com/in/aaryan-tyagi-arc4n3/)
+  - id: 2D31
   
 - **Hemant Bhandari**
-  - Twitter Profile: [NeemeshYadav](https://twitter.com/NeemeshYadav)
-  - Github Profile: [Stealth-py](https://github.com/Stealth-py)
-  - Linkedin Profile: [Neemesh Yadav](https://www.linkedin.com/in/neemeshyadav/)
- 
+  - Github Profile: [laughingclouds](https://github.com/laughingclouds)
+  - Linkedin Profile: [Hemant Bhandari](https://www.linkedin.com/in/hemant-bhandari-ba9a19214/)
+  - id: 2D32
 - **Aditya Singh**
-  - Twitter Profile: [BlazeSama007](https://twitter.com/BlazeSama007)
   - Github Profile: [BlaZeSama](https://github.com/BlaZeSama)
   - Linkedin Profile: [Aditya Singh](https://www.linkedin.com/in/aditya-singh-a43471193/)
+  - id: 2E31
+  
+- **Shreyas Pandey**
+  - Github Profile: [Dankflee](https://github.com/Dankflee)
+  - Linkedin Profile: [Shreyas Pandey](https://www.linkedin.com/in/shreyas-pandey-630b09220/)
+  - id: 2C32
 
+- **Shreshth Sharma**
+  - Github Profile: [COSCOBOY](https://github.com/COSCOBOY)
+  - Linkedin Profile: [Shreshth Sharma](https://www.linkedin.com/in/shreshth-sharma-0a7a62213//)
+  - id: 2C31
