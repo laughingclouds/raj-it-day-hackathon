@@ -16,14 +16,14 @@ export default function ShowDetails() {
         <>
             {
                 data ?
-                    <>
-                        <h2>{data.name}</h2>
-                        <p>Lives in {data.address}</p>
-                        <p>Scored {data.cgpa} CGPA</p>
-                        <p>{data.tenth} in 10<sup>th</sup> standard and {data.twelvfth} in 12<sup>th</sup></p>
-                        <p>Their mentor says this for them: {data.remarks}</p>
-                        <p>You can call them on this number {data.phone}</p>
-                    </>
+                    <div className="pt-6">
+                        <h2 className="text-2xl font-bold">{data.name}</h2>
+                        <p>Lives in <span className="font-semibold">{data.address}</span></p>
+                        <p>Scored <span className="font-semibold">{data.cgpa} CGPA</span></p>
+                        <p><span className="font-semibold">{data.tenth}</span> in 10<sup>th</sup> standard and <span className="font-semibold">{data.twelfth}</span> in 12<sup>th</sup></p>
+                        <p>Their mentor says this for them: <span className="font-semibold">{data.remarks}</span></p>
+                        <p>You can call them on this number <span className="font-semibold">{data.phone}</span></p>
+                    </div>
                     :
                     <></>
             }
