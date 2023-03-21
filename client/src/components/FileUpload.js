@@ -9,7 +9,10 @@ export default function FileUpload() {
 
       <div className="flex flex-row">
         <input type="file" id="studentImage" name="studentImage" className="file-input file-input-bordered" />
-        <button>{ICONS["cloud-arrow-up"]}</button>
+
+        <div className="tooltip tooltip-right" data-tip="Submit">
+          <button>{ICONS["cloud-arrow-up"]}</button>
+        </div>
       </div>
     </form>
   );
