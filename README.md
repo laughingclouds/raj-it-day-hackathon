@@ -47,8 +47,11 @@ It is not yet close to perfection. There are yet things that can be improved and
 
 
   - ### Screenshots
-  <a href = "https://twitter.com/TheTLDRBot/status/1555987964794388481"><img src = "https://user-images.githubusercontent.com/69053040/185205813-6ed6106b-1548-4cfe-9144-fc8cc619f8de.png" width = "500" height = "400"></a>
-  <a href = "https://twitter.com/TheTLDRBot/status/1558533835637276676"><img src = "https://user-images.githubusercontent.com/69053040/185207296-3cd65922-c6c9-488f-8cfb-50c9fb4729df.png" width = "550" height = "400"></a>
+  <img src = "https://user-images.githubusercontent.com/69053040/226495371-05a7288b-3041-4535-adbd-605e138e35a3.png" width="550" height="350"/>
+  <img src = "https://user-images.githubusercontent.com/69053040/226495391-42fb536d-0265-477b-9f41-9025015357bf.png" width="700" height="550"/>
+  <img src = "https://user-images.githubusercontent.com/69053040/226495407-1ea795e9-db32-4cf9-a147-c89d568a2094.png" width="350" height="550"/>
+
+
 
 ## References
   - [Face recognition model](https://github.com/ageitgey/face_recognition)
